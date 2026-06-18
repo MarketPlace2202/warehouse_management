@@ -206,6 +206,26 @@ npm test
    - `VITE_API_BASE_URL=https://<render-service>.onrender.com`
 4. Deploy and verify app can create/list records.
 
+## Docker Hub (Backend Image)
+
+### Build and push
+
+```bash
+# 1) Login to Docker Hub (one time)
+docker login
+
+# 2) Build + push using helper script
+DOCKERHUB_USERNAME=marketplace2202 ./scripts/push-dockerhub.sh
+```
+
+### Submission link format
+
+After push succeeds, use:
+
+`https://hub.docker.com/r/marketplace2202/warehouse-backend`
+
+> Replace `marketplace2202` with your actual Docker Hub username if different.
+
 ## Submission Checklist
 
 - GitHub repo link (frontend + backend in same repo)

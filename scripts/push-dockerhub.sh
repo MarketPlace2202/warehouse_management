@@ -5,9 +5,9 @@ set -euo pipefail
 #   DOCKERHUB_USERNAME=yourusername ./scripts/push-dockerhub.sh
 #
 # Or export your username first:
-#   export DOCKERHUB_USERNAME=marketplace2202
+#   export DOCKERHUB_USERNAME=nirajk102
 
-DOCKERHUB_USERNAME="${DOCKERHUB_USERNAME:-marketplace2202}"
+DOCKERHUB_USERNAME="${DOCKERHUB_USERNAME:-nirajk102}"
 IMAGE_NAME="${IMAGE_NAME:-warehouse-backend}"
 TAG="${TAG:-latest}"
 

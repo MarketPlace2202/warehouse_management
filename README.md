@@ -215,16 +215,16 @@ npm test
 docker login
 
 # 2) Build + push using helper script
-DOCKERHUB_USERNAME=marketplace2202 ./scripts/push-dockerhub.sh
+DOCKERHUB_USERNAME=nirajk102 ./scripts/push-dockerhub.sh
 ```
 
 ### Submission link format
 
 After push succeeds, use:
 
-`https://hub.docker.com/r/marketplace2202/warehouse-backend`
+`https://hub.docker.com/r/nirajk102/warehouse-backend`
 
-> Replace `marketplace2202` with your actual Docker Hub username if different.
+> Replace `nirajk102` with your actual Docker Hub username if different.
 
 ## Submission Checklist
 
